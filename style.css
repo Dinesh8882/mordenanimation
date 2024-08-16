@@ -1,0 +1,65 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  height: 100vh;
+  background-color: rgb(243,223,156);
+}
+.page1{
+  height: 200vh;
+  position: relative;
+}
+
+.page1 h1{
+  position: sticky;
+  top: 50%;
+  left: 50%;
+  text-align: center;
+  font-size: 800;
+  font-size: 8vw;
+  letter-spacing: 20px;
+  background-color: rgba(255,255,255,0.331);
+  transform: translateY(-50%);
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+.page2{
+  height: 100vh;
+  background-color: salmon;
+}
+
+.gsap-box{
+  position: fixed;
+  z-index: 999;
+  display: flex;
+  width: 100vw;
+  height: 100%;
+  top: 0;
+  left: 0;
+  list-style: none;
+  /* transform-origin: bottom; */
+}
+
+.gsap-box li{
+  flex-grow: 1;
+  transform: scaleY(0);
+}
+
+.box-1{
+  background-color: #83eeee;
+}
+.box-2{
+  background-color: #69fff8;
+}
+.box-3{
+  background-color: #40f8fe;
+}
+.box-4{
+  background-color: #1fe2e9;
+}
+.box-5{
+  background-color: #029fa4;
+}
